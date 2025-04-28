@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body,html{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  background-color: #000;
+  font-family: "Tektur", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+::-webkit-scrollbar{
+  width:0.5rem ;
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FFF;
+  width: 0.5rem;
+}
+p{
+  font-family: "Josefin Sans", sans-serif;
+}

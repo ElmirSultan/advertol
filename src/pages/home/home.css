@@ -1,0 +1,287 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home .home-first {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 1200px;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.home .home-first .left {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home .home-first .right {
+
+    flex-basis: 50%;
+}
+
+.home .home-first .left h1 {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.home .home-first .left p {
+    font-size: 1.6rem;
+}
+
+.home .home-first .left .buttons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.home .home-first .left .buttons .buton {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    width: 200px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.home .home-first .left .buttons .buton.bir {
+    background-color: #FFB200;
+}
+
+.home .home-first .left .buttons .buton.bir .buton-icon {
+    font-size: 2rem;
+    color: #000 !important;
+}
+
+.home .home-first .left .buttons .buton.bir p {
+    color: #000;
+    font-weight: 500;
+}
+
+.home .home-first .left .buttons .buton p {
+    font-size: 1.6rem;
+}
+
+.about-us{
+    background-color: #F2F2F2;
+    color: #000;
+
+}
+.about-us .about-us-in{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10rem 0;
+    overflow: hidden;
+}
+.about-us .about-us-in .about-left{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .about-us-in .about-left h1{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+.about-us .about-us-in .about-left .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.about-us .about-us-in .about-left .texts .text-box .title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.about-us .about-us-in .about-left .texts .text-box .title .text-icon{
+    font-size: 2rem;
+}
+.about-us .about-us-in .about-left .texts .text-box .title p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.about-us .about-us-in .about-left .texts .text-box .text{
+    font-size: 1.6rem;
+    color: #000000a4;
+    margin-top: 1rem;
+}
+
+.our-works .our-works-in{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10rem 0;
+    overflow: hidden;
+}
+ .our-works .our-works-in h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.our-works .our-works-in .works {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.our-works .our-works-in .works a{
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+    transition: all .3s ease-in-out;
+}
+.our-works .our-works-in .works a:hover{
+    border-bottom: 1px solid #FFF;
+}
+.home .our-team{
+    background-color: #F2F2F2;
+}
+.home .our-team .our-team-in{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10rem 0;
+    overflow: hidden;
+    color: #000;
+}
+.home .our-team .our-team-in .team-left{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home .our-team .our-team-in .team-left h1{
+    font-size: 5rem;
+}
+.home .our-team .our-team-in .team-left p{
+    font-size: 1.6rem;
+    color: #000000a4;
+}
+
+.home .our-team .our-team-in .team-left .last{
+    color: #000;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+}
+
+.home .our-team .our-team-in .team-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home .our-team .our-team-in .team-right .top{
+    display: flex;
+    gap: 2rem;
+
+}
+.home .our-team .our-team-in .team-right .bottom{
+    display: flex;
+    gap: 2rem;
+
+}
+.home .our-team .our-team-in .team-right .person-box{
+    background-color: #000;
+    width: 230px;
+    height: 300px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6rem;
+    overflow: hidden;
+}
+.home .our-team .our-team-in .team-right .person-box:hover .showed{
+    opacity: 1;
+}
+.home .our-team .our-team-in .team-right .person-box .showed{
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000008c;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    opacity: 0;
+}
+.home .our-team .our-team-in .team-right .person-box.one{
+    background-image: url("../../assets/images/elmirsultan.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .our-team .our-team-in .team-right .person-box h5{
+    font-size: 3rem;
+    text-align: center;
+}
+.home .our-team .our-team-in .team-right .person-box p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.home .our-team .our-team-in .team-right .person-box .icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.home .our-team .our-team-in .team-right .person-box .icons .social-icon{
+    font-size: 3rem;
+}
+
+.home .scrollBox{
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    align-items: center;
+    gap: 5rem;
+    position: fixed;
+    right: 6rem;
+    bottom: 5rem;
+    overflow: hidden;
+    width: 60px;
+    background-color: #000;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.home .scrollBox .scroll-icon{
+    margin-top: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: #aaaaaa44;
+
+}
+.home .scrollBox:hover{
+    background-color: #fff;
+    color: #000;
+}
+.home .scrollBox p{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    transform:rotate(-90deg);
+  
+}
+
