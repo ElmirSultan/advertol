@@ -110,14 +110,44 @@
 .about-us .about-us-in .about-left .texts .text-box .title p{
     font-size: 2rem;
     font-weight: 600;
+    
 }
 
 .about-us .about-us-in .about-left .texts .text-box .text{
     font-size: 1.6rem;
     color: #000000a4;
     margin-top: 1rem;
+    text-align: justify;
+    width: 50rem;
+}
+.our-works .our-works-in .works-swiper{
+    margin-top: 7rem;
 }
 
+.our-works .our-works-in .works-swiper img{
+   width: 10rem;
+}
+.our-works .our-works-in .works-swiper .mySwiper .swiper-slide{
+
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-works .our-works-in .works-swiper .mySwiper .swiper-pagination{
+    position: relative !important;
+    margin-top: 5rem !important;
+}
+.our-works .our-works-in .works-swiper .mySwiper .swiper-pagination .swiper-pagination-bullet{
+    background-color: #000;
+    height: .5rem;
+    width: 3rem;
+    border-radius: 0;
+}
+.our-works{
+    background-color: #FFF;
+    color: #000;
+}
 .our-works .our-works-in{
     display: flex;
     flex-direction: column;
@@ -142,11 +172,12 @@
 
 .our-works .our-works-in .works a{
     font-size: 2rem;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #FFF;
     transition: all .3s ease-in-out;
+    color: #000;
 }
 .our-works .our-works-in .works a:hover{
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #000;
 }
 .home .our-team{
     background-color: #F2F2F2;

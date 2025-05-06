@@ -20,6 +20,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import Lottie from "lottie-react";
 import { FaAnglesUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import OurWorks from "../OurWorks";
 
 const RotatingHexagon = () => {
 
@@ -210,7 +211,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="our-works" id="our-works">
+      {/* <div className="our-works" id="our-works">
         <div className="our-works-in">
           <h1>OUR WORKS</h1>
           <div className="works">
@@ -222,7 +223,9 @@ export default function Home() {
             <a href="#">BUTASCARF</a>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      <OurWorks />
 
       <div className="our-team">
         <div className="our-team-in">
